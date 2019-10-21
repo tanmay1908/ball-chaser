@@ -1,0 +1,9 @@
+<launch>
+
+ <!---Drive Bot node-->
+	<node name="drive_bot" type="drive_bot" pkg="ball_chaser" output="screen">
+	</node>
+ <!--process_image node-->
+	<node name="process_image" type="process_image" pkg="ball_chaser" output="screen">
+	</node>
+</launch>
